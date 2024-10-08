@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10px;
+    width: 100%;
+    align-content: center;
+    background-color: rgba(128, 128, 128, 0.068);
+    padding: 30px;                                                                 
+}
+
+.nav-item a{
+    color: black;
+}
+
+.hero{
+    background-image: url(./assets/images/pexels-paduret-1193743.jpg);
+    height: 60vh;
+    background-size: cover;
+    padding: 15em;
+}
+
+.hero-item{
+display: flex;
+flex-direction: column;
+/* gap: 20px; */
+justify-content: center;
+align-items: center;
+}
+
+.h1-item{
+    align-items: center;
+    /* margin: 200px; */
+    /* padding: 40px; */
+    font-size: 50px;
+
+}
+
+.button-item{
+background-color: white;
+border: none;
+display: flex;
+height:30px;
+width:10%;
+text-decoration: none;
+border-radius: 10px;
+margin: 10px;
+align-items: center;
+padding-left: 10px;
+}
+
+.search-item{
+    box-sizing: border-box;
+     border: 1px  rgba(128, 128, 128, 0.027); 
+    padding: 20px;
+    width: 17%;
+    border-bottom: 1px solid black;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+}
+
